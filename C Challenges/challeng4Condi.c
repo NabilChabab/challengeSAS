@@ -2,8 +2,9 @@
 #include <math.h>
 
 int main() {
-    float a, b, c;
+    float a , b, c;
     float delta, x1, x2;
+
 
     printf("Entrez la valaur de a : ");
     scanf("%f", &a);
