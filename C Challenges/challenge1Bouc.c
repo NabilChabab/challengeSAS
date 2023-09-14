@@ -3,7 +3,10 @@
 
 int main(){
     
-    int i , num = 1;
+    int i , num;
+
+    printf("Entrer un nembre : ");
+    scanf("%d",&num);
 
 
     for (i = 1 ; i <= 10 ; i++){
