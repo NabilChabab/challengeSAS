@@ -16,7 +16,7 @@ int main(){
     if (C>=40){
         printf("Donc tres chaud!!!");
     }
-    else if (C >= 30 && C < 40){
+    else if (C < 40){
         printf("\nDonc chaud!!!");
     }
     else if (C <= 30){
@@ -25,9 +25,6 @@ int main(){
     else{
         printf("\nDonc tres froid!!!");
     }
-    
-
-
-
+   
     return 0 ;
 }
